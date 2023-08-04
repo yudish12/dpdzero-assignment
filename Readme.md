@@ -137,7 +137,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ### How to add token in postman
 
-    1) Use /token api for generating token
-    2) now copy this token and just add it to the data collection-> authorization
-       ->Bearer Token-> add the token generated
-    3) ([Link for postman workspace and collections](https://www.postman.com/gold-flare-783332/workspace/dpd-zero-assignment/overview))
+1. Use /token api for generating token
+2. now copy this token and just add it to the data collection-> authorization
+   ->Bearer Token-> add the token generated
+3. ([Link for postman workspace and collections](https://www.postman.com/gold-flare-783332/workspace/dpd-zero-assignment/overview))
