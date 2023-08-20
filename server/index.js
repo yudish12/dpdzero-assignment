@@ -25,6 +25,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 //Routes defined
+app.get("/", (req, res) => res.send("hello"));
 app.use("/api", userRoutes);
 app.use(checkToken);
 app.use("/api/data", dateRoutes);
